@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
 // JobExecution 은 JobInstance 와 부모 자식 관계
 // JobExecution 에서 Status 가 complete 면 2번째 실행할 때는 에러가 발생하게 된다.
 // 만약 Job 에서 에러가 난다면 Status 가 Failed 로 되고
-// 다시 실행해도 에러가 발생하지 않고 새로운 Execution 을 생성입니다
+// 다시 실행해도 에러가 발생하지 않고 새로운 Execution 을 생성합니다.
 
 @Configuration
 @RequiredArgsConstructor
